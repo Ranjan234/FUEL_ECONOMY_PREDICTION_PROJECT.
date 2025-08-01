@@ -1,7 +1,18 @@
 # FUEL_ECONOMY_PREDICTION_PROJECT.
 Build a linear regression model to predict a vehicle's fuel efficiency. 
 
-
+# The SITUATION
+- You've just been as a Product Data Scientist for Consumer Reports Magazine,a trusted source for information on consumer products and services.
+  
+# The ASSIGNMENT
+- Fuel economy is a major factor in the cost of owning a car, so they are studying the automobile characterstics that impact fuel economy for an upcoming article.
+- You've been asked to build a regression model to predict fuel economy based on characterstics like the car's weight, model year, acceleration, and more.
+  
+# The OBJECTIVES
+* Prepare and explore the data
+* Split the data and build a multiple regression model
+* Evaluate model test performance and interpret the model
+* Challenge: Build a ridge regression model and compare the results
 
 # OBJECTIVE: 1- DATA PREP & EDA
 - Import Data,Filling Missing Values, EDA
@@ -12,6 +23,7 @@ Build a linear regression model to predict a vehicle's fuel efficiency.
 
  # OBJECTIVE -2: Split the data and build a multiple regression model
 - Split the data into train and test, then then set up a validation scheme of your choice- Fit a baseline regression model using the feature with the strongest correlation to the target (‘mpg’)
+  
 -Fit a multiple regression model. Perform any feature selection and feature engineering necessary, fixing any violated assumptions along the way
 
 # OBJECTIVE:3 - TEST & INTERPRET MODEL
